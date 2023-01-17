@@ -6,7 +6,9 @@ namespace AlgorithmProgram
     {
         public static void Main(string[] args)
         {
-            InsertionSort.Display();
+            BubbleSort bubbleSort = new BubbleSort();
+            bubbleSort.Display();
+
 
         }
     }

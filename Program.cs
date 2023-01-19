@@ -7,10 +7,8 @@ namespace AlgorithmProgram
         public static void Main(string[] args)
         {
 
-            FindYourNumber obj= new FindYourNumber();
-            obj.GuessNumber(16);
-           // obj.Question();
-
+           CustomiseMessage obj= new CustomiseMessage();
+            obj.Display();
 
         }
     }

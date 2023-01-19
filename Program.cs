@@ -7,10 +7,9 @@ namespace AlgorithmProgram
         public static void Main(string[] args)
         {
 
-            PrimeNoAnagramPalindrome obj=new PrimeNoAnagramPalindrome();
-            obj.prime(0, 1000);
-            obj.checkpal();
-            obj.checkAnagram();
+            FindYourNumber obj= new FindYourNumber();
+            obj.GuessNumber(16);
+           // obj.Question();
 
 
         }

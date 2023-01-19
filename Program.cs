@@ -7,7 +7,7 @@ namespace AlgorithmProgram
         public static void Main(string[] args)
         {
 
-            Anagram.Display();
+            PrimeNumberFromRange.FindPrimeNumber();
 
         }
     }
